@@ -9,9 +9,9 @@ int main()
     u2 n, m;
     u2 arr[50][50];
     memset(arr, 0, sizeof(arr));
-#if TC == 1
+    #if TC == 1
     n = 2, m = 2, arr[1][1] = 1;
-#elif TC == 2
+    #elif TC == 2
     n = 1, m = 1, arr[1][1] = 1;
     #elif TC == 3
     n = 5, m = 5, arr[1][1] = 1, arr[2][2] = 1,arr[3][3] = 1, arr[4][4] = 1, arr[5][5] = 1;
@@ -19,7 +19,7 @@ int main()
     n = 1, m = 7, arr[1][3] = 1;
     #elif TC == 5
     n = 3, m = 7, arr[2][4] = 1;
-#endif
+    #endif
     printf("Minimum days: %d\n", fs_day_number(n, m, arr) - 1);
     return 0;
 }

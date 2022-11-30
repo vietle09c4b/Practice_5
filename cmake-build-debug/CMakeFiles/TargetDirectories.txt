@@ -1,0 +1,3 @@
+/Users/VIET/Desktop/Learn C/Practice-5/cmake-build-debug/CMakeFiles/Practice_5.dir
+/Users/VIET/Desktop/Learn C/Practice-5/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/VIET/Desktop/Learn C/Practice-5/cmake-build-debug/CMakeFiles/rebuild_cache.dir
